@@ -48,7 +48,7 @@ const Index = () => {
                 </Link>
 
                 <a
-                  href="https://wa.me/916353771878?text=Hello%2C%20I%20want%20to%20inquire%20about%20loan%20options."
+                  href="https://wa.me/917801801157?text=Hello%2C%20I%20want%20to%20inquire%20about%20loan%20options."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

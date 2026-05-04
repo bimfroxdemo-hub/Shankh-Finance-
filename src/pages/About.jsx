@@ -168,12 +168,12 @@ const About = () => {
                   <h3 className="font-semibold text-foreground mb-2">WhatsApp</h3>
                   <p className="text-sm text-muted-foreground mb-3">Fastest way to reach us</p>
                   <a
-                    href="https://wa.me/919999999999?text=Hello%2C%20I%20have%20a%20query%20about%20loans."
+                    href="https://wa.me/917801801157?text=Hello%2C%20I%20have%20a%20query%20about%20loans."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-accent hover:underline font-medium"
                   >
-                    +91 99999 99999
+                    +91 78018 01157
                   </a>
                 </CardContent>
               </Card>
@@ -184,8 +184,8 @@ const About = () => {
                   </div>
                   <h3 className="font-semibold text-foreground mb-2">Phone</h3>
                   <p className="text-sm text-muted-foreground mb-3">Mon-Sat, 9AM-7PM</p>
-                  <a href="tel:+919999999999" className="text-accent hover:underline font-medium">
-                    +91 99999 99999
+                  <a href="tel:+917801801157" className="text-accent hover:underline font-medium">
+                    +91 78018 01157
                   </a>
                 </CardContent>
               </Card>
@@ -196,8 +196,8 @@ const About = () => {
                   </div>
                   <h3 className="font-semibold text-foreground mb-2">Email</h3>
                   <p className="text-sm text-muted-foreground mb-3">We reply within 24 hours</p>
-                  <a href="mailto:info@loanease.in" className="text-accent hover:underline font-medium">
-                    info@loanease.in
+                  <a href="mailto:shankhfiances@gmail.com" className="text-accent hover:underline font-medium">
+                    shankhfiances@gmail.com
                   </a>
                 </CardContent>
               </Card>

@@ -42,11 +42,11 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex gap-2">
                 <Phone className="w-4 h-4" />
-                +91 96878 43104
+                +91 78018 01157
               </li>
               <li className="flex gap-2">
                 <Mail className="w-4 h-4" />
-                info@sankhfinance.com
+                sankhfinances@gmail.com
               </li>
               <li className="flex gap-2">
                 <MapPin className="w-4 h-4" />

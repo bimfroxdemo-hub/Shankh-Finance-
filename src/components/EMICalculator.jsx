@@ -150,9 +150,19 @@ const EMICalculator = () => {
         </div>
 
         {/* CTA */}
-        <Button className="w-full bg-[#3BA55D] hover:bg-[#32914F] text-white py-3 rounded-lg font-semibold">
-          Get Best Rates on WhatsApp
-        </Button>
+        <a
+          href="https://wa.me/917801801157?text=Hello%2C%20I%20want%20to%20inquire%20about%20loan%20options."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            size="lg"
+            className="w-full bg-[#3BA55D] hover:bg-[#32914F] text-white py-3 rounded-lg font-semibold"
+          >
+            Get Best Rates on WhatsApp
+          </Button>
+        </a>
+
       </CardContent>
     </Card>
   );

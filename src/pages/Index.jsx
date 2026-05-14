@@ -7,7 +7,7 @@ import {
   Users,
   TrendingUp,
 } from "lucide-react";
-
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import EMICalculator from "@/components/EMICalculator";
@@ -17,7 +17,28 @@ const Index = () => {
   return (
     <div className="flex flex-col">
       {/* HERO */}
+
       <section className="gradient-primary text-primary-foreground py-16 md:py-24">
+        <Helmet>
+          <title>
+            Loan Consultant in Surat | Personal, Home & Business Loans | SHANKH FINANCE
+          </title>
+
+          <meta
+            name="description"
+            content="Get expert consultation for Personal Loan, Home Loan, Business Loan, Mortgage Loan and Insurance services in Surat."
+          />
+
+          <meta
+            name="keywords"
+            content="Loan Consultant Surat, Personal Loan Surat, Home Loan Consultant, Business Loan Services"
+          />
+
+          <link
+            rel="canonical"
+            href="https://www.shankhfinance.com/"
+          />
+        </Helmet>
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">

@@ -2,12 +2,32 @@ import { FileText, AlertCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { loanTypes, rejectionReasons } from "@/data/loanData";
-
+import { Helmet } from "react-helmet-async";
 const Documents = () => {
   return (
     <div className="flex flex-col">
       {/* Hero */}
       <section className="gradient-primary text-primary-foreground py-12 md:py-16">
+        <Helmet>
+          <title>
+            Loan Documents Required | SHANKH FINANCE Surat
+          </title>
+
+          <meta
+            name="description"
+            content="Check the required documents for Personal Loan, Home Loan, Business Loan and Mortgage Loan applications."
+          />
+
+          <meta
+            name="keywords"
+            content="Loan Documents Required, Home Loan Documents, Business Loan Documents"
+          />
+
+          <link
+            rel="canonical"
+            href="https://www.shankhfinance.com/documents"
+          />
+        </Helmet>
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Documents & Eligibility
@@ -177,4 +197,3 @@ const Documents = () => {
 };
 
 export default Documents;
-         

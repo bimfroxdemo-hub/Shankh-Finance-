@@ -1,11 +1,31 @@
 import LoanCard from "@/components/LoanCard";
 import { loanTypes } from "@/data/loanData";
-
+import { Helmet } from "react-helmet-async";
 const Loans = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="gradient-primary text-primary-foreground py-12 md:py-16">
+        <Helmet>
+          <title>
+            Loan Services in Surat | Personal, Home & Business Loans
+          </title>
+
+          <meta
+            name="description"
+            content="Explore Personal Loan, Home Loan, Business Loan, Mortgage Loan and Car Loan consultation services in Surat."
+          />
+
+          <meta
+            name="keywords"
+            content="Personal Loan Surat, Business Loan Surat, Mortgage Loan Consultant"
+          />
+
+          <link
+            rel="canonical"
+            href="https://www.shankhfinance.com/loans"
+          />
+        </Helmet>
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Our Loan Products

@@ -80,7 +80,7 @@ const Footer = () => {
       {/* Copyright */}
       {/* BOTTOM BAR */}
       <div className="relative z-10 border-t border-white/10 py-4 text-center text-xs sm:text-sm text-gray-400">
-        © {new Date().getFullYear()} Sankh Finance. All rights reserved.
+        © {new Date().getFullYear()} Shankh Finance. All rights reserved.
         <br className="sm:hidden" />
         <span className="ml-1">
           Made by{" "}

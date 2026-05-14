@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Send, CheckCircle2 } from "lucide-react";
-
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -90,6 +90,26 @@ Please guide me with the next steps.`;
     <div className="flex flex-col">
       {/* HERO */}
       <section className="gradient-primary text-white py-12 md:py-16">
+        <Helmet>
+          <title>
+            Apply for Loan Online | SHANKH FINANCE Surat
+          </title>
+
+          <meta
+            name="description"
+            content="Apply online for Personal Loan, Home Loan, Business Loan and Mortgage Loan consultation in Surat."
+          />
+
+          <meta
+            name="keywords"
+            content="Apply Loan Online Surat, Home Loan Apply, Business Loan Application"
+          />
+
+          <link
+            rel="canonical"
+            href="https://www.shankhfinance.com/apply"
+          />
+        </Helmet>
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Apply for a Loan
